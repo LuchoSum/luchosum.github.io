@@ -1,0 +1,138 @@
+body{
+    margin: 30px;
+    background-image: url(fondoportafolio.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200vh;
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+}
+
+/* navegador */
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 80px; /*espacio entre si */
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: rgb(81, 255, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-flex;
+    font-size: 25px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(70, 68, 68);
+} /* hover es para el color cuando pasamos el mouse */
+
+.foto-perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* imagen redonda */
+    object-fit: cover; /*imagen no se deforma */
+}
+
+/* head */
+.hprincipal{
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+ h1{
+    font-size: 40px;
+ }
+
+ h2{
+    font-size: 25px;
+    color: burlywood;
+ }
+
+ h3{
+    font-size: 30px;
+    color: rgb(81, 255, 0);
+ }
+
+ /* lista */
+ a{
+    color: aliceblue;
+    font-size: 20px;
+    display: inline-flex;
+ }
+
+ .informacion{
+    color: aliceblue;
+    margin-top: 30px;
+ }
+
+ .Contactos{
+    color: aliceblue;
+    font-size: 20px;
+ }
+
+.icono {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #titulo, #subtitulo{
+    color: rgb(252, 252, 252);
+    text-align: center;
+    width:55%;
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+
+#titulo{
+    font-size: 4vw;
+    margin-bottom: 1vw;
+}
+
+#subtitulo{
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    top: 60%
+}  
+
+h3{
+    font-size: 1.5vw;
+    font-weight:normal;
+}
+*/
